@@ -9,8 +9,22 @@
         name="scriptlanguage" content="text/javascript" />
     <meta id="YafMetaStyles" http-equiv="Content-Style-Type" runat="server" name="styles"
         content="text/css" />
-    <meta id="YafMetaDescription" runat="server" name="description" content="YetAnotherForum.NET -- A bulletin board system written in ASP.NET" />
-    <title></title>
+    <meta id="YafMetaDescription" runat="server" name="description" 
+        content="Join our vibrant dating forum to connect with singles,Explore discussions on dating tips, online dating experiences" />
+    <title>Explore discussions on Dating</title>
+
+    <meta property="og:title" content="Dicsussion about dating and sugar relationship">
+<meta property="og:description" content="join our vibrant dating forum to connect with singles,Explore discussions on dating tips, online dating experiences, and personal stories. Sign up now and share your journey of your dating experinces">
+<meta property="og:image" content="https://datingguide.info/Images/Logos/DatingGuide_logo.svg">
+<meta property="og:url" content="https://datingguide.info">
+
+
+    <meta name="twitter:title" content="Dicsussion about dating and sugar relationship">
+<meta name="twitter:description" content="join our vibrant dating forum to connect with singles,Explore discussions on dating tips, online dating experiences, and personal stories. Sign up now and share your journey of your dating experinces">
+<meta name="twitter:url" content="https://datingguide.info/Images/Logos/DatingGuide_logo.svg">
+<meta name="twitter:card" content="Dating,hookup,sugar relationship">
+
+
 </head>
 <body id="YafBody" runat="server">
 <asp:HyperLink runat="server" id="BannerLink">

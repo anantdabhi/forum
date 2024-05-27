@@ -8,9 +8,9 @@
 <header class="mb-2">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-        <a class="navbar-brand mb-1" href="<%=this.Get<LinkBuilder>().GetLink(ForumPages.Board) %>">
+        <h1 class="navbar-brand mb-1" href="<%=this.Get<LinkBuilder>().GetLink(ForumPages.Board) %>">
             <%= this.PageBoardContext.BoardSettings.Name %>
-        </a>
+        </h1>
         
         <button class="navbar-toggler" type="button" 
                 data-bs-toggle="collapse" 
