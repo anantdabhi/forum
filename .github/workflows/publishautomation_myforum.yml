@@ -23,8 +23,8 @@ jobs:
         uses: NuGet/setup-nuget@v1.0.5
 
       - name: Restore NuGet packages
-        run: nuget restore
-
+        run: nuget restore ./yafsrc/YAF.NET-SqlServer.sln
+              
       - name: Publish to folder
         run: msbuild ./yafsrc/YAF.NET-SqlServer.sln /nologo /verbosity:m /t:Build /t:pipelinePreDeployCopyAllFilesToOneFolder /p:_PackageTempDir="\published\"
 
