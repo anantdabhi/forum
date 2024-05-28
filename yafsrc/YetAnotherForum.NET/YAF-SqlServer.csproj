@@ -2232,6 +2232,7 @@
     <Content Include="Global.asax" />
     <Content Include="Gruntfile.js" />
     <Content Include="Images\Avatars\SampleAvatar.gif" />
+    <Content Include="Images\Forums\seeking-logo.png" />
     <Content Include="Images\Medals\award_star_bronze_3.png" />
     <Content Include="Images\Medals\award_star_bronze_3_small.png" />
     <Content Include="Images\Medals\award_star_gold_2.png" />
@@ -3072,7 +3073,7 @@ del *.xml</PostBuildEvent>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
-      <UserProperties bundleconfig_1json__JSONSchema="" compilerconfig_1json__JSONSchema="" />
+      <UserProperties compilerconfig_1json__JSONSchema="" bundleconfig_1json__JSONSchema="" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>
