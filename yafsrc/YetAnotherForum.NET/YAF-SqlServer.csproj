@@ -1056,12 +1056,7 @@
     <Content Include="Content\bootstrap-email\scss\utilities\_text-decoration.scss" />
     <Content Include="Content\bootstrap-email\scss\utilities\_typography.scss" />
     <Content Include="Content\bootstrap-email\scss\utilities\_valign.scss" />
-    <Content Include="Content\bootstrap-email\scss\_colors.scss" />
-    <Content Include="Content\bootstrap-email\scss\_functions.scss" />
-    <Content Include="Content\bootstrap-email\scss\_helper_groups.scss" />
     <Content Include="Content\bootstrap-email\scss\_reboot_email.scss" />
-    <Content Include="Content\bootstrap-email\scss\_selectors_for_utils.scss" />
-    <Content Include="Content\bootstrap-email\scss\_utilities.scss" />
     <Content Include="Content\bootstrap-email\scss\_variables.scss" />
     <Content Include="Content\bootstrap-email\templates\body.html" />
     <Content Include="Content\bootstrap-email\templates\button.html" />
@@ -1152,7 +1147,6 @@
     <Content Include="Content\flags\1x1\dm.svg" />
     <Content Include="Content\flags\1x1\do.svg" />
     <Content Include="Content\flags\1x1\dz.svg" />
-    <Content Include="Content\flags\1x1\ea.svg" />
     <Content Include="Content\flags\1x1\ec.svg" />
     <Content Include="Content\flags\1x1\ee.svg" />
     <Content Include="Content\flags\1x1\eg.svg" />
@@ -1418,7 +1412,6 @@
     <Content Include="Content\flags\4x3\dm.svg" />
     <Content Include="Content\flags\4x3\do.svg" />
     <Content Include="Content\flags\4x3\dz.svg" />
-    <Content Include="Content\flags\4x3\ea.svg" />
     <Content Include="Content\flags\4x3\ec.svg" />
     <Content Include="Content\flags\4x3\ee.svg" />
     <Content Include="Content\flags\4x3\eg.svg" />
@@ -1780,7 +1773,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\cerulean\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\cerulean\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\cerulean\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\cerulean\EmailTemplate.html" />
     <Content Include="Content\Themes\cerulean\LICENSE.md" />
@@ -1795,7 +1787,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\cosmo\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\cosmo\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\cosmo\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\cosmo\EmailTemplate.html" />
     <Content Include="Content\Themes\cosmo\LICENSE.md" />
@@ -1810,7 +1801,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\cyborg\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\cyborg\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\cyborg\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\cyborg\EmailTemplate.html" />
     <Content Include="Content\Themes\cyborg\LICENSE.md" />
@@ -1825,7 +1815,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\darkly\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\darkly\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\darkly\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\darkly\EmailTemplate.html" />
     <Content Include="Content\Themes\darkly\LICENSE.md" />
@@ -1840,7 +1829,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\flatly\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\flatly\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\flatly\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\flatly\EmailTemplate.html" />
     <Content Include="Content\Themes\flatly\LICENSE.md" />
@@ -1855,7 +1843,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\journal\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\journal\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\journal\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\journal\EmailTemplate.html" />
     <Content Include="Content\Themes\journal\LICENSE.md" />
@@ -1870,7 +1857,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\litera\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\litera\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\litera\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\litera\EmailTemplate.html" />
     <Content Include="Content\Themes\litera\LICENSE.md" />
@@ -1885,7 +1871,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\lumen\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\lumen\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\lumen\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\lumen\EmailTemplate.html" />
     <Content Include="Content\Themes\lumen\LICENSE.md" />
@@ -1900,7 +1885,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\lux\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\lux\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\lux\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\lux\EmailTemplate.html" />
     <Content Include="Content\Themes\lux\LICENSE.md" />
@@ -1915,7 +1899,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\materia\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\materia\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\materia\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\materia\EmailTemplate.html" />
     <Content Include="Content\Themes\materia\LICENSE.md" />
@@ -1930,7 +1913,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\minty\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\minty\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\minty\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\minty\EmailTemplate.html" />
     <Content Include="Content\Themes\minty\LICENSE.md" />
@@ -1945,7 +1927,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\morph\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\morph\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\morph\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\morph\EmailTemplate.html" />
     <Content Include="Content\Themes\morph\LICENSE.md" />
@@ -1960,7 +1941,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\pulse\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\pulse\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\pulse\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\pulse\EmailTemplate.html" />
     <Content Include="Content\Themes\pulse\LICENSE.md" />
@@ -1975,7 +1955,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\quartz\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\quartz\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\quartz\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\quartz\EmailTemplate.html" />
     <Content Include="Content\Themes\quartz\_bootswatch.scss" />
@@ -1989,7 +1968,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\sandstone\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\sandstone\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\sandstone\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\sandstone\EmailTemplate.html" />
     <Content Include="Content\Themes\sandstone\LICENSE.md" />
@@ -2004,7 +1982,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\simplex\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\simplex\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\simplex\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\simplex\EmailTemplate.html" />
     <Content Include="Content\Themes\simplex\LICENSE.md" />
@@ -2019,7 +1996,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\sketchy\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\sketchy\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\sketchy\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\sketchy\EmailTemplate.html" />
     <Content Include="Content\Themes\sketchy\LICENSE.md" />
@@ -2034,7 +2010,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\slate\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\slate\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\slate\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\slate\EmailTemplate.html" />
     <Content Include="Content\Themes\slate\LICENSE.md" />
@@ -2049,7 +2024,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\solar\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\solar\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\solar\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\solar\EmailTemplate.html" />
     <Content Include="Content\Themes\solar\LICENSE.md" />
@@ -2064,7 +2038,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\spacelab\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\spacelab\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\spacelab\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\spacelab\EmailTemplate.html" />
     <Content Include="Content\Themes\spacelab\LICENSE.md" />
@@ -2079,7 +2052,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\superhero\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\superhero\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\superhero\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\superhero\EmailTemplate.html" />
     <Content Include="Content\Themes\superhero\LICENSE.md" />
@@ -2094,7 +2066,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\united\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\united\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\united\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\united\EmailTemplate.html" />
     <Content Include="Content\Themes\united\LICENSE.md" />
@@ -2109,7 +2080,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\vapor\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\vapor\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\vapor\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\vapor\EmailTemplate.html" />
     <Content Include="Content\Themes\vapor\_bootswatch.scss" />
@@ -2123,7 +2093,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\yaf\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\yaf\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\yaf\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\yaf\EmailTemplate.html" />
     <Content Include="Content\Themes\yaf\_variables-email.scss" />
@@ -2137,7 +2106,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\yeti\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\yeti\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\yeti\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\yeti\EmailTemplate.html" />
     <Content Include="Content\Themes\yeti\LICENSE.md" />
@@ -2152,7 +2120,6 @@
       <DependentUpon>bootstrap-forum.css</DependentUpon>
     </Content>
     <Content Include="Content\Themes\zephyr\bootstrap-forum.scss" />
-    <Content Include="Content\Themes\zephyr\bootstrap_email.config.rb" />
     <Content Include="Content\Themes\zephyr\DigestTopicTemplate.html" />
     <Content Include="Content\Themes\zephyr\EmailTemplate.html" />
     <Content Include="Content\Themes\zephyr\_bootswatch.scss" />
@@ -2232,7 +2199,6 @@
     <Content Include="Global.asax" />
     <Content Include="Gruntfile.js" />
     <Content Include="Images\Avatars\SampleAvatar.gif" />
-    <Content Include="Images\Forums\seeking-logo.png" />
     <Content Include="Images\Medals\award_star_bronze_3.png" />
     <Content Include="Images\Medals\award_star_bronze_3_small.png" />
     <Content Include="Images\Medals\award_star_gold_2.png" />
@@ -2421,8 +2387,6 @@
     <Content Include="Scripts\bs5-lightbox\webpack.common.js" />
     <Content Include="Scripts\choices\assets\scripts\.eslintrc.js" />
     <Content Include="Scripts\choices\assets\scripts\choices.js" />
-    <Content Include="Scripts\choices\assets\scripts\choices.min.js" />
-    <Content Include="Scripts\choices\assets\scripts\choices.min.js.LICENSE.txt" />
     <Content Include="Scripts\codemirror.min.js" />
     <Content Include="Scripts\dark-editable.js" />
     <Content Include="Scripts\fileUploader.js" />
@@ -2853,7 +2817,6 @@
     <Content Include="Content\forum\dropdowns.scss" />
     <Content Include="Content\forum\social-icons.scss" />
     <Content Include="Content\forum\button-scroll.scss" />
-    <Content Include="Content\forum\sidebar-help.scss" />
     <None Include="Content\InstallWizard.scss" />
     <Content Include="Content\webfonts\fa-brands-400.ttf" />
     <Content Include="Content\webfonts\fa-brands-400.woff2" />
@@ -3073,7 +3036,7 @@ del *.xml</PostBuildEvent>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
-      <UserProperties compilerconfig_1json__JSONSchema="" bundleconfig_1json__JSONSchema="" />
+      <UserProperties bundleconfig_1json__JSONSchema="" compilerconfig_1json__JSONSchema="" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>
