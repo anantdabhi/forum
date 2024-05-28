@@ -26,13 +26,13 @@ jobs:
         run: nuget restore ./yafsrc/YAF.NET-SqlServer.sln
               
       - name: Publish to folder
-        run: msbuild ./yafsrc/YAF.NET-SqlServer.sln -t:rebuild -property:Configuration=Release /p:_PackageTempDir="..\published\"
+        run: msbuild ./yafsrc/YAF.NET-SqlServer.sln -t:rebuild -property:Configuration=Release /p:_PackageTempDir="\published\"
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
           name: ASP-app
-          path: '/published/**'
+          path: '.yafsrc/published/**'
 
   deploy:
     runs-on: windows-latest
