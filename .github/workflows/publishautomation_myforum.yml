@@ -26,7 +26,7 @@ jobs:
         run: nuget restore ./yafsrc/YAF.NET-SqlServer.sln
               
       - name: Publish to folder
-        run: msbuild ./yafsrc/YAF.NET-SqlServer.sln /nologo /verbosity:m /t:Build /p:WarningLevel=0 /t:pipelinePreDeployCopyAllFilesToOneFolder /p:_PackageTempDir="\published\"
+        run: msbuild ./yafsrc/YAF.NET-SqlServer.sln -t:rebuild -property:Configuration=Release
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
