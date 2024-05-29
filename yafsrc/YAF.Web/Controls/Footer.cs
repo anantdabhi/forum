@@ -1,4 +1,4 @@
-﻿/* Yet Another Forum.NET
+/* Yet Another Forum.NET
  * Copyright (C) 2003-2005 Bjørnar Henden
  * Copyright (C) 2006-2013 Jaben Cargman
  * Copyright (C) 2014-2024 Ingo Herbote
@@ -96,34 +96,34 @@ public class Footer : BaseControl
 
         writer.Write(@"</div></footer>");
 
-#if DEBUG
-        writer.Write(
-            """
-            <br /><br /><div style="margin:auto;padding:5px;text-align:right;font-size:7pt;">
-                                          <span class="text-danger">YAF Compiled in <strong>DEBUG MODE</strong></span>.
-                              <br />Recompile in <strong>RELEASE MODE</strong> to remove this information:
-            """);
+//#if DEBUG
+//        writer.Write(
+//            """
+//            <br /><br /><div style="margin:auto;padding:5px;text-align:right;font-size:7pt;">
+//                                          <span class="text-danger">YAF Compiled in <strong>DEBUG MODE</strong></span>.
+//                              <br />Recompile in <strong>RELEASE MODE</strong> to remove this information:
+//            """);
 
-        var extensions = this.Get<IList<Assembly>>("ExtensionAssemblies").Select(a => a.FullName).ToList();
+//        var extensions = this.Get<IList<Assembly>>("ExtensionAssemblies").Select(a => a.FullName).ToList();
 
-        if (extensions.Exists(x => x.Contains("PublicKeyToken=f3828393ba2d803c")))
-        {
-            writer.Write("Official YAF.NET Release: Modules with Public Key of f3828393ba2d803c Loaded.");
-        }
+//        if (extensions.Exists(x => x.Contains("PublicKeyToken=f3828393ba2d803c")))
+//        {
+//            writer.Write("Official YAF.NET Release: Modules with Public Key of f3828393ba2d803c Loaded.");
+//        }
 
-        writer.Write(
-            """<div style="margin:auto;padding:5px;text-align:right;font-size:7pt;"><span style="color: green">{0}</span></div>""",
-            Config.ConnectionProviderName);
+//        writer.Write(
+//            """<div style="margin:auto;padding:5px;text-align:right;font-size:7pt;"><span style="color: green">{0}</span></div>""",
+//            Config.ConnectionProviderName);
 
-        if (extensions.Exists(x => x.Contains(".Module")))
-        {
-            writer.Write(
-                """<br /><br />Extensions Loaded: <span style="color: green">{0}</span>""",
-                extensions.Where(x => x.Contains(".Module")).ToDelimitedString("<br />"));
-        }
+//        if (extensions.Exists(x => x.Contains(".Module")))
+//        {
+//            writer.Write(
+//                """<br /><br />Extensions Loaded: <span style="color: green">{0}</span>""",
+//                extensions.Where(x => x.Contains(".Module")).ToDelimitedString("<br />"));
+//        }
 
-        writer.Write("</div>");
-#endif
+//        writer.Write("</div>");
+//#endif
     }
 
     /// <summary>
@@ -160,28 +160,28 @@ public class Footer : BaseControl
 
         writer.Write(" | ");
 
-        writer.Write("""<a target="_blank" title="YetAnotherForum.NET" href="https://www.yetanotherforum.net">""");
-        writer.Write(this.GetText("COMMON", "POWERED_BY"));
-        writer.Write(@" YAF.NET");
+        writer.Write("""<a target="_blank" title="datingguide.info" href="https://datingguide.info">""");
+        writer.Write("datingguide.info");
+        
 
         if (this.PageBoardContext.BoardSettings.ShowYAFVersion)
         {
             writer.Write(" {0} ", BoardInfo.AppVersionName);
 
-            if (Config.IsDotNetNuke)
-            {
-                writer.Write(" Under DNN ");
-            }
-            else if (Config.IsMojoPortal)
-            {
-                writer.Write(" Under MojoPortal ");
-            }
+            //if (Config.IsDotNetNuke)
+            //{
+            //    writer.Write(" Under DNN ");
+            //}
+            //else if (Config.IsMojoPortal)
+            //{
+            //    writer.Write(" Under MojoPortal ");
+            //}
         }
-
-        writer.Write(
-            """</a> | <a target="_blank" title="{0}" href="{1}">YAF.NET &copy; 2003-{2} YetAnotherForum.NET</a>""",
-            "YetAnotherForum.NET",
-            "https://www.yetanotherforum.net",
-            DateTime.UtcNow.Year);
+        writer.Write("</a>");
+        //writer.Write(
+        //    """</a> | <a target="_blank" title="{0}" href="{1}">YAF.NET &copy; 2023-{2} datingguide.info</a>""",
+        //    "datingguide.info",
+        //    "https://datingguide.info",
+        //    DateTime.UtcNow.Year);
     }
 }
