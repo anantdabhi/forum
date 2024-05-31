@@ -72,7 +72,7 @@ public class PageLogoHandlerForumModule : SimpleBaseForumModule
         image.AlternateText = "logo";
         image.ImageUrl = logoUrl;
 
-        image.Attributes["class"] = "my-3";
+        //image.Attributes["class"] = "my-3";
 
         if (!this.CurrentForumPage.ShowToolBar)
         {
