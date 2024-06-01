@@ -12,7 +12,7 @@
     <meta id="YafMetaDescription" runat="server" name="description" 
         content="Join our vibrant dating forum to connect with singles,Explore discussions on dating tips, online dating experiences" />
     <title>Explore discussions on Dating</title>
-
+<meta name="google-adsense-account" content="ca-pub-9204729779085915">
     <meta property="og:title" content="Dicsussion about dating and sugar relationship">
 <meta property="og:description" content="join our vibrant dating forum to connect with singles,Explore discussions on dating tips, online dating experiences, and personal stories. Sign up now and share your journey of your dating experinces">
 <meta property="og:image" content="https://datingguide.info/Images/Logos/DatingGuide_logo.svg">
