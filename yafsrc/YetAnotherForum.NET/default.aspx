@@ -35,5 +35,9 @@
     <YAF:Forum runat="server" ID="forum" BoardID="1">
     </YAF:Forum>
 </YAF:Form>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9204729779085915"
+     crossorigin="anonymous"></script>
 </body>
 </html>
