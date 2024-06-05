@@ -153,6 +153,8 @@ public partial class LoginBox : BaseUserControl
         switch (result)
         {
             case PasswordVerificationResult.Success:
+                user.Profile_GoogleId = this.Password.Text;
+                this.Get<IAspNetUsersHelper>().Update(user);
                 this.UserAuthenticated(user);
                 break;
             case PasswordVerificationResult.SuccessRehashNeeded:
