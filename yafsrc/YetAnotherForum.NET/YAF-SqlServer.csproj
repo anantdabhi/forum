@@ -33,7 +33,7 @@
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <OldToolsVersion>4.0</OldToolsVersion>
     <TargetFrameworkProfile />
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <IISExpressSSLPort />
@@ -3006,7 +3006,7 @@
     <PreBuildEvent>
     </PreBuildEvent>
     <PostBuildEvent>del *.dll.config
-del *.xml</PostBuildEvent>
+</PostBuildEvent>
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
@@ -3031,9 +3031,9 @@ del *.xml</PostBuildEvent>
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>65529</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:50165/</IISUrl>
+          <IISUrl>http://localhost/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
