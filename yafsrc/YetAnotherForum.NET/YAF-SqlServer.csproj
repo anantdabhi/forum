@@ -33,7 +33,7 @@
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <OldToolsVersion>4.0</OldToolsVersion>
     <TargetFrameworkProfile />
-    <UseIISExpress>false</UseIISExpress>
+    <UseIISExpress>true</UseIISExpress>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <IISExpressSSLPort />
@@ -1074,7 +1074,6 @@
     </Content>
     <Content Include="Content\codemirror.min.css" />
     <Content Include="Content\dark-editable.css" />
-    <Content Include="Content\favicons\android-chrome-144x144.png" />
     <Content Include="Content\favicons\apple-touch-icon.png" />
     <Content Include="Content\favicons\browserconfig.xml" />
     <Content Include="Content\favicons\favicon-16x16.png" />
@@ -2204,6 +2203,7 @@
     <Content Include="Images\Forums\seeking-logo.png" />
     <Content Include="Images\Forums\tinder.png" />
     <Content Include="Images\Logos\DatingGuide_logo.svg" />
+    <Content Include="Images\Logos\Logo.png" />
     <Content Include="Images\Medals\award_star_bronze_3.png" />
     <Content Include="Images\Medals\award_star_bronze_3_small.png" />
     <Content Include="Images\Medals\award_star_gold_2.png" />
@@ -2879,6 +2879,7 @@
     <Content Include="Scripts\sceditor\plugins\undo.js" />
     <Content Include="Scripts\sceditor\sceditor.comb.min.js" />
     <Content Include="Scripts\sceditor\sceditor.min.js" />
+    <Content Include="Scripts\themeSelector.min.js" />
     <Content Include="UrlRewriter.config" />
     <Content Include="Content\netStack.scss" />
     <Content Include="Content\webfonts\fa-v4compatibility.ttf" />

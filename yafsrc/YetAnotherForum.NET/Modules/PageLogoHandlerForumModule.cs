@@ -56,6 +56,8 @@ public class PageLogoHandlerForumModule : SimpleBaseForumModule
     /// </param>
     private void ForumPage_PreRender(object sender, EventArgs e)
     {
+        var tags = this.CurrentForumPage.FindControlRecursiveBothAs<HyperLink>("YafMetaDescription"); 
+
         var bannerLink = this.CurrentForumPage.FindControlRecursiveBothAs<HyperLink>("BannerLink");
         var image = this.CurrentForumPage.FindControlRecursiveBothAs<Image>("ForumLogo");
 
